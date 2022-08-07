@@ -1,2 +1,0 @@
-# CVV
-Resume
