@@ -6,12 +6,12 @@ let careerTitle = document.querySelector('.career__title')
 let skillsTitle = document.querySelectorAll('.skills__title')
 let spanGray = document.querySelector('.gray')
 let isDay = true
-imgDaySrc = imgDaySrc.slice(0,13) + '.png'
-let imgNightSrc = imgDaySrc.slice(0,13) + '1.png'
-console.log(imgDaySrc, imgNightSrc);
+// imgDaySrc = imgDaySrc.slice(0,13) + '.png'
+// let imgNightSrc = imgDaySrc.slice(0,13) + '1.png'
+console.log(isDay);
 modeImg.addEventListener('click', ()=>{
     if (isDay) {
-        modeImg.setAttribute('src', imgNightSrc)
+        modeImg.setAttribute('src', 'img/night2.png')
         isDay = false
         document.body.style.backgroundColor = '#000'
         document.body.style.color = '#fff'
@@ -25,7 +25,7 @@ modeImg.addEventListener('click', ()=>{
         spanGray.style.color = '#fff'
     }
     else {
-        modeImg.setAttribute('src', imgDaySrc)
+        modeImg.setAttribute('src', 'img/night2.png')
         isDay = true
         document.body.style.backgroundColor = '#fff'
         document.body.style.color = '#000'

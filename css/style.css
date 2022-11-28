@@ -8,12 +8,16 @@
 
 body {
   padding: 5%;
+  transition: 0.5s;
 }
 
 #mode {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
+  transition: 0.5s;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 header .header__content {
