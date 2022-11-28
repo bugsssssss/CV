@@ -35,13 +35,13 @@ header .header__content {
   flex-wrap: wrap;
 }
 header .header__photo {
-  width: 250px;
-  height: 225px;
+  width: 265px;
+  height: 270px;
   background-color: black;
 }
 header .header__photo img {
-  width: 250px;
-  height: 225px;
+  width: 265px;
+  height: 270px;
 }
 header .header__text {
   width: 50%;
