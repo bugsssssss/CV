@@ -11,7 +11,7 @@ let isDay = true
 console.log(isDay);
 modeImg.addEventListener('click', ()=>{
     if (isDay) {
-        modeImg.setAttribute('src', 'img/night2.png')
+        modeImg.setAttribute('src', 'img/night.png')
         isDay = false
         document.body.style.backgroundColor = '#000'
         document.body.style.color = '#fff'
@@ -25,7 +25,8 @@ modeImg.addEventListener('click', ()=>{
         spanGray.style.color = '#fff'
     }
     else {
-        modeImg.setAttribute('src', 'img/night2.png')
+        modeImg.setAttribute('src', 'img/day.png')
+
         isDay = true
         document.body.style.backgroundColor = '#fff'
         document.body.style.color = '#000'

@@ -12,6 +12,10 @@ body {
     transition: 0.5s;
 }
 
+.all_content {
+    position: relative;
+}
+
 #mode {
     width: 30px;
     height: 30px;
@@ -19,8 +23,13 @@ body {
     transition: 0.5s;
     background-color: #fff;
     border-radius: 50%;
-
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
+
+
 
 header {
     // padding: 100px;
@@ -139,10 +148,8 @@ header {
             }
         }
     }
-    // .career {
-
-    //     .skills {
-    //         gap: 100px;
-    //     }
-    // }
+    #mode {
+        right: 0;
+        top: 0;
+    }
 }
