@@ -42,6 +42,7 @@ header .header__photo {
 header .header__photo img {
   width: 265px;
   height: 270px;
+  border-radius: 10px;
 }
 header .header__text {
   width: 50%;
