@@ -37,7 +37,7 @@ header .header__content {
 header .header__photo {
   width: 265px;
   height: 270px;
-  background-color: black;
+  background-color: transparent;
 }
 header .header__photo img {
   width: 265px;
